@@ -209,10 +209,10 @@ MonoBehaviour:
   health: 5
   damage: 5
   deathSound: {fileID: 1387987199}
-  shootingInterval: 4
-  shootingDistance: 6
-  chasingInterval: 2
-  chasingDistance: 12
+  shootingInterval: 1000
+  shootingDistance: 1
+  chasingInterval: 1000
+  chasingDistance: 1
 --- !u!65 &5594338292155699567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -319,6 +319,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0cfcbb3d6da49334dbeb40732109239c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
 --- !u!4 &7366363790161708580 stripped
